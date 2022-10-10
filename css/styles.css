@@ -12,6 +12,15 @@ h1{
 }
 
 h3{
+    color:white;
+    text-align: center;
+    padding:20px;
+    margin: 20px;
+    font-size: 1.5em;
+    
+}
+
+.references h3{
     color: black;
     text-decoration: underline;
     padding: 10px;
