@@ -46,7 +46,7 @@ p{
     font-size: 1.2em;
     text-align: center;
     line-height: 1.6;
-    padding: 40px;
+    padding: 50px;
     margin-bottom: 50px;
 
 }
@@ -171,10 +171,10 @@ figure{
 
 }
 
-.gri-container2{
+.grid-container2{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2.25fr 0.25fr 0.25fr;
+    grid-template-rows: 0.5fr 3fr 0.5fr 0.25fr;
     justify-content:center;
     justify-items:center;
     align-items:center;
