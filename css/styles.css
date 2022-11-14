@@ -163,7 +163,7 @@ figure{
 
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2.25fr 1fr 0.25fr;
+    grid-template-rows: 1fr 3.5fr 1fr 0.25fr;
     justify-content:center;
     justify-items:center;
     align-items:center;
@@ -198,7 +198,7 @@ figure{
 
 .grid-item4{
     grid-row: 4;
-    width:100%;
+    width:80%;
 }
 
 @keyframes fadeIn {
@@ -220,7 +220,6 @@ footer{
 footer p{
     color:black;
     padding:10px;
-    width:100%;
     background-color: beige;
     font-weight: bold;
 }
