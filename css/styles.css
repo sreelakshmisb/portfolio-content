@@ -168,7 +168,7 @@ figure{
     justify-items:center;
     align-items:center;
     align-content:center;
-
+    max-width:100%;
 }
 
 .grid-container2{
@@ -179,7 +179,6 @@ figure{
     justify-items:center;
     align-items:center;
     align-content:center;
-
 }
 
 .grid-item1{
@@ -189,7 +188,7 @@ figure{
 
 .grid-item2{
     grid-row: 2;
-    width:100%;
+    width:80%;
 }
 
 .grid-item3{
