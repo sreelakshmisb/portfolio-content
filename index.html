@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-50VV4FJXQV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-50VV4FJXQV');
+        </script>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Spotlight</title>
         <link rel="icon" type="image/ico" href="images/favicon.ico"/>
         <link rel="stylesheet" href="css/html5reset.css"/>
         <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
     </head>
-    <body>
-        <header>
+    <body class="grid-container1">
+        <header class="grid-item1">
             <h1>SPOTLIGHT</h1>
             <a href="#main" class="skip">Jump to Content</a>
-            <br><br><br>
             <nav>
-                <a class="active" href='index.html'>HOME</a>
+                <a class="active" href='index.html'><i class="fa-sharp fa-solid fa-house"></i>HOME</a>
                 <a href="events_1990s.html">1990s</a>
                 <a href="events_2000s.html">2000s</a>
                 <a href="events_2010s.html">2010s</a>
                 <a href='gallery.html'>GALLERY</a>
             </nav>
         </header>
-        <main id="main">
-            <br><br><br>
+        <main id="main" class="grid-item2">
             <section>
                 <p>The history of the world is a book that keeps writing itself. A glance at this book 
                     will show you fascinating events scattered throughout, on every page. Some of them have captured 
                     public attention more than others and some have had wide-ranging implications that are felt to this day.</p>
                 <p> This site gives you a peek into some of the major events of the last three decades.
                     Choose any decade below for a blast from the past.</p>
-                <br><br>
                 <a href="events_1990s.html">1990s</a>
                 <br><br>
                 <a href="events_2000s.html">2000s</a>
@@ -37,16 +45,26 @@
                 <br><br>
             </section>
             <figure>
-                <img src="images/world_map.jpeg" alt="World Map"/>
+                <img src="images/world_map.jpeg" alt="World Map" class="main-image"/>
                 <figcaption>World Map [source : https://www.nationsonline.org/oneworld/map/world_map.html]</figcaption>
             </figure>
-            <section class="references">
-                <h3>REFERENCES</h3>
-                    <p>en.wikipedia.org | www.history.com | www.britannica.com</p>   
-            </section>
          </main>
-        <footer>
+         <aside class="references griditem3">
+            <h2>REFERENCES</h2>
+                <p>en.wikipedia.org | www.history.com | www.britannica.com</p>   
+         </aside>
+        <footer class="grid-item4">
             <p><em>For sharing feedback, please reach me at xyz@gmail.com!</em></p>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <!--<form action="https://formspree.io/f/xwkzwawr" method="POST">
+                <label>Your email:
+                    <input type="email" name="email">
+                </label>
+                <label> Your message:
+                    <textarea name="message"></textarea>
+                </label>
+            <button type="submit">Send</button>
+            </form>-->
         </footer>
     </body>
 </html>

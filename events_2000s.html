@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-50VV4FJXQV');
+        </script>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Spotlight</title>
         <link rel="icon" type="image/ico" href="images/favicon.ico"/>
         <link rel="stylesheet" href="css/html5reset.css"/>
         <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
     </head>
-    <body>
-        <header>
+    <body class="grid-container2">
+        <header class="grid-item1">
             <h1>2000-2009</h1>
             <a href="#main" class="skip">Jump to Content</a>
             <br><br><br>
             <nav>
-                <a href='index.html'>HOME</a>
+                <a href='index.html'><i class="fa-sharp fa-solid fa-house"></i>HOME</a>
                 <a href="events_1990s.html">1990s</a>
                 <a class="active" href="events_2000s.html">2000s</a>
                 <a href="events_2010s.html">2010s</a>
                 <a href='gallery.html'>GALLERY</a>
             </nav>
         </header>
-        <main id="main">
+        <main id="main" class="grid-item2">
             <section>
                 <article>
-                    <h3> GEORGE W.BUSH WINS A CONTROVERSIAL ELECTION</h3>
+                    <h2> GEORGE W.BUSH WINS A CONTROVERSIAL ELECTION</h2>
                     <p>2000: George W.Bush wins the election for the 43rd President of the United States, 
                         against Democratic candidate Al Gore, after the Supreme Court of the United States stays a 
                         manual recount of votes ordered by the Supreme Court of Florida, in counties in Florida. 
@@ -38,7 +47,7 @@
             <br>
             <section>
                 <article>
-                    <h3>U.S. BEGINS A GLOBAL WAR ON TERROR</h3>
+                    <h2>U.S. BEGINS A GLOBAL WAR ON TERROR</h2>
                     <p> 2001 : Following the 9/11 terrorist attacks by Al-Qaeda, United States, 
                         under the presidency of George W. Bush, launches a military campaign with the 
                         aim to eliminate terrorism. The toppling of the Taliban in Afghanistan and the invasion of Iraq in 2003 were manifestations of this policy.
@@ -47,14 +56,16 @@
                 </article> 
             </section>
             <figure>
-                <img src="images/war_on_terror_montage.png" alt="(Clockwise from top left) Aftermath of the September 11 attacks: American servicemen boarding an aircraft in Afghanistan; an American soldier and Afghan interpreter in Afghanistan; explosion of an Iraqi car bomb in Baghdad"/>
-                 <figcaption>(Clockwise from top left) Aftermath of the September 11 attacks: American servicemen boarding an aircraft in Afghanistan; an American soldier and Afghan interpreter in Afghanistan; explosion of an Iraqi car bomb in Baghdad [source : en.wikipedia.org]</figcaption>
+                <img src="images/war_on_terror_montage.png" alt="Aftermath of the September 11 attacks and the subsequent invasion of Afghanistan by the US"/>
+                 <figcaption>(Clockwise from top left) Aftermath of the September 11 attacks; American servicemen boarding an aircraft in Afghanistan; an American soldier and Afghan interpreter in Afghanistan; Explosion of an Iraqi car bomb in Baghdad [source : en.wikipedia.org]</figcaption>
             </figure>
-            <br><br><br><br>
-            <a href='gallery.html' class='seeMore'>SEE MORE EVENTS FROM 1990-2019</a>
-            <br><br>
         </main>
-        <footer>
+        <br><br><br><br>
+        <aside class="grid-item3">
+            <a href='gallery.html' class='seeMore'>SEE MORE EVENTS FROM 1990-2019</a>
+        </aside>
+        <br><br>
+        <footer class="grid-item4">
             <p><em>For sharing feedback, please reach me at xyz@gmail.com!</em></p>
         </footer>
     </body>
